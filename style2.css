@@ -1,0 +1,150 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 100%;
+    background-color: #a78f86;
+    padding: 30px;
+    z-index: 0;
+    margin-top: 50px;
+}
+
+#sidebar p {
+    color: #f2f2f2;
+}
+
+
+#sidebar h1 {
+    margin-top: 0;
+}
+
+#main {
+
+    padding: 20px;
+    font-size: 16px;
+    margin-left: 270px;
+    margin-top: 50px;
+    background-color: #e8dfdc;
+}
+
+@media screen and (max-width: 600px) {
+    #sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    #main {
+        margin-left: 0;
+    }
+}
+
+#main h2{
+    color: #463b3b;
+}
+
+#main h3{
+    color: #6c605c;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#413630;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #413630;
+}
+
+/* 去掉每个 <li> 前面的点 */
+ul {
+    list-style: none;
+}
+
+.my-image {
+    display: block;
+    /*margin: 0 10px;*/
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #524343;
+}
+li:last-child {
+    margin-bottom: 20px;
+}
+
+p {
+    color: #524343;
+}
+
+span {
+    margin-right: 160px;
+    color: #524343;
+}
